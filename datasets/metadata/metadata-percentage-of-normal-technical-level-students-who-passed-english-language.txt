@@ -1,0 +1,53 @@
+# Metadata for Percentage of Normal (Technical) Level Students Who Passed English Language
+---
+Identifier: '45abae71-a2fe-431f-b961-c7f6db9869a8'
+Name: 'percentage-of-normal-technical-level-students-who-passed-english-language'
+Title: 'Percentage of Normal (Technical) Level Students Who Passed English Language'
+Description:
+  - 'Percentage of N(T)-Level Students Who Passed English Language'
+  - 'Note: Students who offer the subject at a higher level are also taken into consideration.'
+Topics:
+  - 'Education'
+Keywords:
+  - 'English Language'
+  - 'Examination'
+  - 'Normal Technical'
+Publisher:
+  Name: 'Ministry of Education'
+  Admin 1:
+    Name: 'Chng Lung Huang'
+    Department: 'RMID'
+    Email: 'moe_management_information@moe.gov.sg'
+Sources:
+  - 'Ministry of Education'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Annual'
+Coverage: '2008-01-01 to 2021-12-31'
+Last Updated: '2022-12-12T07:02:08.400342'
+Resources:
+  -
+    Identifier: '7f513bcc-1a28-469c-a891-e198e306364c'
+    Title: 'Percentage of Normal (Technical) Level Students Who Passed English Language'
+    Url: 'https://storage.data.gov.sg/percentage-of-normal-technical-level-students-who-passed-english-language/resources/percentage-of-normal-technical-level-students-who-passed-english-language-2022-12-12T07-02-07Z.csv'
+    Format: 'CSV'
+    Coverage: '2008-01-01 to 2021-12-31'
+    Last Updated: '2022-12-12T07:02:07.903975'
+    Schema:
+      -
+        Name: 'year'
+        Title: 'Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'race'
+        Title: 'Race'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'percentage_pass_eng'
+        Title: 'Percentage pass eng'
+        Type: 'numeric'
+        Sub Type: 'percentage'
+        Description: 'Percentages are expressed as a value over 100, i.e. "100" represents
+          100%'

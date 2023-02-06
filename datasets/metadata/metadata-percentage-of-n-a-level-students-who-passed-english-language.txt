@@ -1,0 +1,55 @@
+# Metadata for Percentage of Normal (Academic) Level Students Who Passed English Language
+---
+Identifier: '156d4d55-043a-42af-8556-53ce64197a7c'
+Name: 'percentage-of-n-a-level-students-who-passed-english-language'
+Title: 'Percentage of Normal (Academic) Level Students Who Passed English Language'
+Description:
+  - 'Percentage of N(A)-Level Students Who Passed English Language'
+  - 'Notes: 1)  Figures exclude N(A) students on the Through-train Programme who progress
+    to Secondary 5 N(A) without taking the N(A)-Level Examination.'
+  - '2)  Students who offer the subject at a higher level are also taken into consideration.'
+Topics:
+  - 'Education'
+Keywords:
+  - 'English Language'
+  - 'Examination'
+  - 'Normal Academic'
+Publisher:
+  Name: 'Ministry of Education'
+  Admin 1:
+    Name: 'Chng Lung Huang'
+    Department: 'RMID'
+    Email: 'moe_management_information@moe.gov.sg'
+Sources:
+  - 'Ministry of Education'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Annual'
+Coverage: '2008-01-01 to 2021-12-31'
+Last Updated: '2022-12-12T06:47:43.717683'
+Resources:
+  -
+    Identifier: 'f9a3e1b6-83a2-46da-aa60-ece012a1c31a'
+    Title: 'Percentage of N[A]-Level Students Who Passed English Language'
+    Url: 'https://storage.data.gov.sg/percentage-of-n-a-level-students-who-passed-english-language/resources/percentage-of-n-a-level-students-who-passed-english-language-2022-12-12T06-47-43Z.csv'
+    Format: 'CSV'
+    Coverage: '2008-01-01 to 2021-12-31'
+    Last Updated: '2022-12-12T06:47:43.312775'
+    Schema:
+      -
+        Name: 'year'
+        Title: 'Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'race'
+        Title: 'Race'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'percentage_pass_eng'
+        Title: 'Percentage pass eng'
+        Type: 'numeric'
+        Sub Type: 'percentage'
+        Description: 'Percentages are expressed as a value over 100, i.e. "100" represents
+          100%'

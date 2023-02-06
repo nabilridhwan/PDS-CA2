@@ -1,0 +1,53 @@
+# Metadata for Percentage of Normal (Technical) Level Students Who Passed Mathematics
+---
+Identifier: 'd7a1cb88-4bd2-4676-ac8d-2288d14b6fcc'
+Name: 'percentage-of-normal-technical-level-students-who-passed-mathematics'
+Title: 'Percentage of Normal (Technical) Level Students Who Passed Mathematics'
+Description:
+  - 'Percentage of N(T)-Level Students Who Passed Mathematics'
+  - 'Note: Students who offer the subject at a higher level are also taken into consideration.'
+Topics:
+  - 'Education'
+Keywords:
+  - 'Examination'
+  - 'Mathematics'
+  - 'Normal Technical'
+Publisher:
+  Name: 'Ministry of Education'
+  Admin 1:
+    Name: 'Chng Lung Huang'
+    Department: 'RMID'
+    Email: 'moe_management_information@moe.gov.sg'
+Sources:
+  - 'Ministry of Education'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Annual'
+Coverage: '2008-01-01 to 2021-12-31'
+Last Updated: '2022-12-12T06:57:11.228299'
+Resources:
+  -
+    Identifier: '96b8f07b-f011-4d45-bd4e-5dc4bca0a8fd'
+    Title: 'Percentage of Normal (Technical) Level Students Who Passed Mathematics'
+    Url: 'https://storage.data.gov.sg/percentage-of-normal-technical-level-students-who-passed-mathematics/resources/percentage-of-normal-technical-level-students-who-passed-mathematics-2022-12-12T06-57-10Z.csv'
+    Format: 'CSV'
+    Coverage: '2008-01-01 to 2021-12-31'
+    Last Updated: '2022-12-12T06:57:10.729149'
+    Schema:
+      -
+        Name: 'year'
+        Title: 'Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'race'
+        Title: 'Race'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'percentage_pass_math'
+        Title: 'Percentage pass math'
+        Type: 'numeric'
+        Sub Type: 'percentage'
+        Description: 'Percentages are expressed as a value over 100, i.e. "100" represents
+          100%'

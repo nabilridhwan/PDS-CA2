@@ -1,0 +1,62 @@
+# Metadata for Percentage of GCE O-Level Students Who Passed Mathematics
+---
+Identifier: '0e532782-6dae-4dfa-a5d0-5602f5f185a9'
+Name: 'percentage-of-gce-o-level-students-who-passed-mathematics'
+Title: 'Percentage of GCE O-Level Students Who Passed Mathematics'
+Description:
+  - 'Percentage of GCE O-Level Students Who Passed Mathematics.'
+  - ''
+  - 'Notes:'
+  - ''
+  - '1. Figures exclude Integrated Programmes (IP) students.'
+  - '2. Figures include all school candidates except those who took O-Level subjects
+    not in their graduating year.'
+Topics:
+  - 'Education'
+Keywords:
+  - 'Ethnic Group'
+  - 'Examinations'
+  - 'Mathematics'
+  - 'O-Levels'
+  - 'Schools'
+  - 'Secondary Education'
+  - 'Students'
+Publisher:
+  Name: 'Ministry of Education'
+  Admin 1:
+    Name: 'Chng Lung Huang'
+    Department: 'Research & Management Information Division'
+    Email: 'moe_management_information@moe.gov.sg'
+Sources:
+  - 'Ministry of Education'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Annual'
+Coverage: '1997-01-01 to 2021-12-31'
+Last Updated: '2022-12-12T06:26:27.745105'
+Resources:
+  -
+    Identifier: '90da3390-9628-4bb7-836d-66e5839e271f'
+    Title: 'Percentage of GCE O Level Students Who Passed Mathematics'
+    Url: 'https://storage.data.gov.sg/percentage-of-gce-o-level-students-who-passed-mathematics/resources/percentage-of-gce-o-level-students-who-passed-mathematics-2022-12-12T06-26-27Z.csv'
+    Format: 'CSV'
+    Coverage: '1997-01-01 to 2021-12-31'
+    Last Updated: '2022-12-12T06:26:27.314317'
+    Schema:
+      -
+        Name: 'year'
+        Title: 'Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'race'
+        Title: 'Race'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'percentage_pass_math'
+        Title: 'Percentage pass math'
+        Type: 'numeric'
+        Sub Type: 'percentage'
+        Description: 'Percentages are expressed as a value over 100, i.e. "100" represents
+          100%'

@@ -1,0 +1,55 @@
+# Metadata for Percentage of Normal (Academic) Level Students Who Passed Mathematics
+---
+Identifier: 'a6576222-0be4-4310-9d4b-7daf4eb8bfd0'
+Name: 'percentage-of-normal-academic-level-students-who-passed-mathematics'
+Title: 'Percentage of Normal (Academic) Level Students Who Passed Mathematics'
+Description:
+  - 'Percentage of N(A)-Level Students Who Passed Mathematics'
+  - 'Notes: 1) Figures exclude N(A) students on the Through-train Programme who progress
+    to Secondary 5 N(A) without taking the N(A)-Level Examination.'
+  - '2) Students who offer the subject at a higher level are also taken into consideration.'
+Topics:
+  - 'Education'
+Keywords:
+  - 'Examination'
+  - 'Mathematics'
+  - 'Normal Academic'
+Publisher:
+  Name: 'Ministry of Education'
+  Admin 1:
+    Name: 'Chng Lung Huang'
+    Department: 'RMID'
+    Email: 'moe_management_information@moe.gov.sg'
+Sources:
+  - 'Ministry of Education'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Annual'
+Coverage: '2008-01-01 to 2021-12-31'
+Last Updated: '2022-12-12T06:52:11.371196'
+Resources:
+  -
+    Identifier: '2049e677-cb74-4aae-89fa-0d3bc9c41ad3'
+    Title: 'Percentage of Normal Academic Level Students Who Passed Mathematics'
+    Url: 'https://storage.data.gov.sg/percentage-of-normal-academic-level-students-who-passed-mathematics/resources/percentage-of-normal-academic-level-students-who-passed-mathematics-2022-12-12T06-52-10Z.csv'
+    Format: 'CSV'
+    Coverage: '2008-01-01 to 2021-12-31'
+    Last Updated: '2022-12-12T06:52:10.924800'
+    Schema:
+      -
+        Name: 'year'
+        Title: 'Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'race'
+        Title: 'Race'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'percentage_pass_math'
+        Title: 'Percentage pass math'
+        Type: 'numeric'
+        Sub Type: 'percentage'
+        Description: 'Percentages are expressed as a value over 100, i.e. "100" represents
+          100%'
